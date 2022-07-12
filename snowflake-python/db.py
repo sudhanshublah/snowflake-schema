@@ -2,8 +2,8 @@ import snowflake.connector
 
 # Gets the version
 ctx = snowflake.connector.connect(
-    user='SUDHANSHU',
-    password='147258369@Blah',
+    user='<user>',
+    password='<password>',
     account='kz41049.ap-south-1.aws'
     )
 # cs = ctx.cursor().execute('CREATE DATABASE IF NOT EXISTS SCHEMACHANGE_DEMO')
