@@ -4,7 +4,7 @@ import snowflake.connector
 ctx = snowflake.connector.connect(
     user='<user>',
     password='<password>',
-    account='kz41049.ap-south-1.aws'
+    account='<account-id>'
     )
 # cs = ctx.cursor().execute('CREATE DATABASE IF NOT EXISTS SCHEMACHANGE_DEMO')
 # cs = ctx.cursor().execute('USE SCHEMA SCHEMACHANGE_DEMO.PUBLIC')
